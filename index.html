@@ -15,46 +15,100 @@
 
 <body class="debug">
     <!-- Inizio Header -->
-    <header class="p-3 verde">
-        <div class="container">
-            <h1>ciao</h1>
-        </div>
-    </header>
+        <nav class="navbar navbar-dark p-4 header text-uppercase">
+            <div class="container">
+                <a class="navbar-brand fw-bolder">start bootstrap</a>
+                <ul class="navbar-nav fw-normal">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     <!-- Fine Header -->
     <!-- Inizio Main -->
     <main>
-        <div class="jumbo p-3">
+        <div class="verde p-5">
             <div class="container">
-                <h1>ciao</h1>
-            </div>
-        </div>
-        <div class="container p-3">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                <div class="col-12">ciao</div>
-                
-                <div class="col">colllum</div>
-                <div class="col">colllum</div>
-                <div class="col">colllum</div>
-                <div class="col">colllum</div>
-                <div class="col">colllum</div>
-                <div class="col">colllum</div>
-            </div>
-        </div>
-        <div class="p-3 verde">
-            <div class="container">
-                <div class="row row-cols-2">
-                    <h1 class="col-12">rares</h1>
-                    <p class="col"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, accusamus. At ex, dolor odit optio alias dolorum eaque ea eligendi. Commodi eligendi incidunt nisi sint quo adipisci aut, fuga quia.</p>
-                    <p class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod, deserunt nesciunt est reprehenderit exercitationem non quibusdam corrupti asperiores voluptatibus porro. Magnam quod eius provident sint facilis voluptates commodi incidunt!</p>
+                <div class="row justify-content-center">
+                    <div class="image  ratio ratio-1x1 rounded-circle ">
+                    </div>
+                    <div class="text-uppercase text-white text-center mt-3">
+                        <h1 > start bootstrap</h1>
+                        <div class="star"></div>
+                        <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="containe p-5">
-            <div class="row">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
+        <div class="container p-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-4">
+                <h2 class="text-center text-uppercase col-12">PORTFOLIO</h2>
+                <div class="star col-12 text-center">c</div>
+                <div class="col text-center px-1 rounded bg-grayblue">
+                    <img class="w-100" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png" alt="">
+                </div>
+                <div class="col text-center px-1 rounded bg-grayblue">
+                     <img class="w-100" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png" alt="">
+                </div>
+                <div class="col text-center px-1 rounded bg-grayblue">
+                     <img class="w-100" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png" alt="">
+                </div>
+                <div class="col text-center px-1 rounded bg-grayblue">
+                     <img class="w-100" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png" alt="">
+                </div>
+                <div class="col text-center px-1 rounded bg-grayblue">
+                     <img class="w-100" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png" alt="">
+                </div>
+                <div class="col text-center px-1 rounded bg-grayblue">
+                     <img class="w-100" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="p-3 verde">
+            <div class="container text-white p-5">
+                <div class="row row-cols-2">
+                    <h1 class="col-12 text-center">ABOUT</h1>
+                    <div class="star col-12 text-center">c</div>
+                    <p class="col text-center"> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
+                    <p class="col text-center">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn btn-outline-light">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="containe p-5">
+                <h1 class="uppercase text-center">CONTACT ME</h1>
+                <div class="star col-12 text-center">c</div>
+                <div class="row py-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name">name</label>
+                            <input type="text" class="form-control border-r border-top-0 border-end-0 border-start-0 " id="name" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">email</label>
+                            <input type="email" class="form-control border-r border-top-0 border-end-0 border-start-0 " id="email" placeholder="">
+                        </div>
+                        <div class="phone">
+                            <label for="formGroupExampleInput">phone</label>
+                            <input type="text" class="form-control border-r border-top-0 border-end-0 border-start-0 " id="phone" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message">message</label>
+                            <textarea type="text" class="form-control border-r border-top-0 border-end-0 border-start-0 " id="message" row="6" placeholder="" ></textarea>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
@@ -65,16 +119,16 @@
         <div class="bg-blue py-4">
             <div class="container">
                 <div class="row">
-                    <div class="col">ciaso</div>
-                    <div class="col">ciaso</div>
-                    <div class="col">ciaso</div>
+                    <div class="col text-center">ciaso</div>
+                    <div class="col text-center">ciaso</div>
+                    <div class="col text-center">ciaso</div>
                 </div>
             </div>
         </div>
         <div class="bg-grayblue py-4">
             <div class="container">
                 <div class="row">
-                    <div class="col">ciaso</div>
+                    <div class="col text-center">ciaso</div>
                 </div>
             </div>
         </div>
