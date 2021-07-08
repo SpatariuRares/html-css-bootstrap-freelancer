@@ -1,3 +1,7 @@
+body{
+    color: #2c3e50;
+}
+
 .header{
     background-color: #2C3E50;
 }
@@ -8,15 +12,35 @@
 }
 
 .verde{
-    background-color: green;
+    background-color: #1abc9c;
 }
 .border-r{
     border-radius: 0;
 }
 
 .bg-blue{
-    background-color: aquamarine;
+    background-color: #3a546d;
 }
+
+.star::after,
+.star::before{
+    content: "";
+    width: 20%;
+    height: 3px;
+    margin:0 20px 0 20px;
+    background-color: black;
+}
+.social{
+    max-width: 3rem;
+    width: 25%!important;
+    aspect-ratio: 1/1;
+}
+
+.text-white .star::after,
+.text-white .star::before{
+    background-color: white;
+}
+
 
 @media(min-width:780px){
     .navbar-nav{
@@ -26,4 +50,13 @@
         padding-left: 1em!important;
         padding-right: 1em!important;
     }
+}
+
+@media (max-width: 780px) {
+  .ham-menu {
+    display:inline-block!important ;
+  }
+  .menu-header {
+    display:none!important ;
+  }
 }
