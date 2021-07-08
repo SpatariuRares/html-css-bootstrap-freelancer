@@ -7,13 +7,19 @@ body{
 }
 
 .image{
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
     background-color: red;
 }
 
 .verde{
     background-color: #1abc9c;
 }
+
+.c-verde{
+    color: #1abc9c;
+}
+
 .border-r{
     border-radius: 0;
 }
